@@ -1,0 +1,126 @@
+/* eda596 skin color
+dec09a light yellow
+694958 shirt color */
+
+section
+{
+    height: 100vh;
+}
+.first
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.white
+{
+    color: rgb(224, 224, 224);
+}
+.first
+{
+    background-color: #da8570;
+}
+.light-blue
+{
+    color: #264653;
+}
+.fc
+{
+    align-items: center;
+}
+nav
+{
+    top: 0;
+    width: 1700px;
+    height: 70px;
+    background-color: #264653;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo
+{
+    color:rgb(224, 224, 224)
+}
+.links a
+{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+.profile
+{
+    filter: drop-shadow(0px 0px 10px black);
+}
+#project
+{
+    background-color: #dec09a;
+}
+.proj
+{
+    color: #1c404e;
+    padding: 90px;
+}
+.blood
+{
+    border-radius: 30px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.blood:hover
+{
+    filter: drop-shadow(0px 0px 10px black);
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+.harbor
+{
+    border-radius: 30px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.harbor:hover
+{
+    filter: drop-shadow(0px 0px 10px black);
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+.project-title
+{
+    color: #1c404e;
+    
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+#about
+{
+    background-color: #e1a675;
+}
+.skills
+{
+    display: flex;
+    justify-content: space-around;
+}
+.cont
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.insta
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#contact
+{
+    color: white;
+    background-color: #264653;
+}
